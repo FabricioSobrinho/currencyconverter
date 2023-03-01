@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="estiloconv.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <!-- <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt=""> -->
+      </div>
+      <section>
+        <p>
+            <p> </p> Selecione a moeda de origem da conversão: </p>
+                <input type="radio" name="moedaorg" id="orgreal">
+                <label for="orgreal">Reais (R$)</label>
+                <input type="radio" name="moedaorg" id="orgdol">
+                <label for="orgdol">Dólar ($$)</label>
+                <input type="radio" name="moedaorg" id="orgeur">
+                <label for="orgeur">Euro (€)</label>
+
+                <p>Insira o valor a ser convertido: <input type="number" name="valor" id="valor" min="0"></p>
+
+            </p>
+
+           <p> selecione a moeda para a qual você deseja converter:</p>
+            <input type="radio" name="moeda" id="moedabrl">
+            <label for="moedabrl">Reais (R$) </label>
+            <input type="radio" name="moeda" id="moedadol">
+            <label for="moedadol">Dólar ($$) </label>
+            <input type="radio" name="moeda" id="moedaeur">
+            <label for="moedaeur">Euro (€) </label>
+        </p>
+        <button onclick="verificar()">Verificar</button>
+        <p><div id="result"></div></p>
+        
+      </section>
+      <a href="https://alura.com.br/" target="_blank">
+        <!-- <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"> -->
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+      </a>
+
+
+
+
+ <footer>
+<p>&copy;CopyBricio</p>
+ </footer>
+<script src="scriptconv.js"></script>
+
+</body>
+</html>

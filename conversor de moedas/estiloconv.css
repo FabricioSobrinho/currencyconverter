@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top; 
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    box-shadow: rgba(35, 34, 34, 0.8) 7px 5px 4px 4px;
+    background: rgba(41, 52, 135, 0.678);
+    margin-top: 1px;
+}
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  footer {
+    color: white;
+  }
+section {
+    background:white;
+    margin: auto;
+    align-items: center;
+    height:  auto;
+    width: 540px;
+    border-radius: 10px 10px 10px 10px; 
+    box-shadow: rgba(35, 34, 34, 0.8) 5px 5px 5px 5px;
+    margin-top: auto;
+    font: normal  13pt arial;
+    padding: 5px;
+}  
+
+button { /*configurações personaliadas para um botão*/
+    position: center;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    height: 33px;
+    width: 150px;
+    background: rgb(43, 72, 145);
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    padding: 5px;
+}
+
+button:hover {
+    box-shadow: inset -10.5em 0 0 0 #2f47a5, inset 10.5em 0 0 0 #2f47a5; 
+} 
